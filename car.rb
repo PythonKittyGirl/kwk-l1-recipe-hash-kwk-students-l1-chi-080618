@@ -2,6 +2,21 @@
 
 class Car 
   def initialize (model, make, year)
-    @car
+    @carmodel = model
+    @carmake = make
+    @caryear = year
+end
+
+def model
+  @carmodel 
+end
+
+def make 
+  @carmake
+end
+
+def year 
+  @caryear
+end
 
 end
